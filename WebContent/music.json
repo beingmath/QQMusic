@@ -1,0 +1,36 @@
+[
+  {
+    "name": "想和你去吹吹风 ",
+    "singer": "张学友",
+    "album": "想和你去吹吹风",
+    "pictrue":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002KQHsQ4CYI5b.jpg?max_age=2592000",
+    "time":"04:52",
+    "link_url": "source/want.mp3"
+
+  },{
+  "name": "AS long AS Love ",
+  "singer": "Justi bieber",
+  "album": "Now That is why That we call",
+  "pictrue":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002XddZv4cGsXb.jpg?max_age=2592000",
+  "time":"03:49",
+  "link_url": "source/AS long AS Love.mp3"
+
+
+},{
+
+  "name": "等 ",
+  "singer": "陈百强",
+  "album": "离不开你",
+  "pictrue":"https://y.gtimg.cn/music/photo_new/T002R300x300M000004VqQPL2osIv0.jpg?max_age=2592000",
+  "time":"03:51",
+  "link_url": "source/wait.mp3"
+},{
+
+  "name": "摘下满天星 ",
+  "singer": "郑少秋",
+  "album": "大时代",
+  "pictrue":"https://y.gtimg.cn/music/photo_new/T002R300x300M000002mTcV02rIGhb.jpg?max_age=2592000",
+  "time":"04:43",
+  "link_url": "source/摘下满天星.mp3"
+}
+]

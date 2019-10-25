@@ -1,0 +1,419 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea, th {
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: poppin,Tahoma,Arial,微软雅黑,sans-serif;
+    font-family: Tahoma,Arial,微软雅黑,sans-serif/9;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.header .left {
+    float: right;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+
+.header .left li {
+    list-style: none;
+    float: left;
+    margin-top: -20px;
+    padding-left: 10px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.header .left li:hover {
+    opacity: 1;
+}
+
+.content {
+    height: 500px;
+    width: 100%;
+}
+
+.content .content-in {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content-left {
+    height: 100%;
+    width: 800px;
+}
+
+.content-right {
+    float: right;
+    height: 100%;
+    width: 400px;
+}
+
+.content-right .pic {
+    width: 200px;
+    height: 200px;
+    clear: both;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.content-right .song {
+    text-align: center;
+}
+
+.content-right .lyric li {
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.5;
+}
+
+.content-right .lyric li:hover {
+    opacity: 1;
+}
+
+.content-top {
+    height: 50px;
+    width: 100%;
+}
+
+.content-top span {
+    display: inline-block;
+    width: 122px;
+    height: 100%;
+    border: 1px solid #fff;
+    box-size: border-box;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+.content-bottom {
+    height: 450px;
+    width: 100%;
+    overflow: auto;
+}
+
+.content-bottom li {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+}
+
+.content-bottom div {
+    float: left;
+    line-height: 50px;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content-bottom li .box {
+    height: 100%;
+    width: 30px;
+}
+
+.list_music .checked i {
+    background: url("image/fuxuankuang.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+}
+.list_music .gif{
+	background: url("image/wave.gif") no-repeat 0 center;
+	color:transparent;/* 设置颜色为透明*/
+    background-size: 20% 20%;
+  
+}
+
+.content-bottom li .box i {
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.content-bottom li .number {
+    height: 100%;
+    width: 80px;
+}
+
+.content-bottom li .name {
+    height: 100%;
+    width: 20%;
+}
+
+.content-bottom li .music {
+    height: 100%;
+    width: 50%;
+}
+
+.music .list_menu {
+    float: right;
+    display: none;
+}
+
+.list_menu a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url("image/bofang.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+}
+ .list_menu .music_play2{
+	 display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url("image/bofang2.png")  no-repeat ;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+}
+
+.content-bottom li .time {
+    height: 100%;
+}
+
+.time .list_delete {
+    float: left;
+    display: none;
+}
+
+.list_delete a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url("image/shanchu.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+}
+
+.bottom {
+    height: 100px;
+    width: 100%;
+}
+
+.bottom .bottom-in {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.bottom-in a {
+    margin-top: 20px;
+}
+
+.bottom-in .sound {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.sound .sound-pic {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    background: url("image/sound.png") no-repeat 0 0;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    position: relative;
+    top: 20px;
+}
+
+.sound .sound-pic2{
+	   display: inline-block;
+    width: 50px;
+    height: 100%;
+    background: url("image/shengyinjingyin.png")no-repeat 0 0;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    position: relative;
+    top: 20px;
+}
+
+.sound .sound-bac {
+    float: right;
+    width: 150px;
+    height: 5px;
+    margin-top: 45px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sound-bac .sound-top {
+    width: 50px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.sound-bac .sound-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: -11px;
+    left: 40px;
+    background-color: #fff;
+}
+
+.bottom-in .song-progress {
+    display: inline-block;
+    width: 649px;
+    height: 60px;
+}
+
+.song-progress .top-info {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.song-progress .song-bar {
+    width: 100%;
+    height: 20px;
+}
+
+.song-bar .song-bac {
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.song-bac .song-top {
+    width:0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.song-bac .song-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    position : relative;
+    top: -11px;
+   left:0px;
+    position: relative
+}
+
+.top-info .song-name {
+    float: left;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.top-info .song-name:hover {
+    opacity: 1;
+}
+
+.top-info .song-time {
+    float: right;
+    color: #fff;
+}
+
+.bottom-in .song_pre {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("image/shangyishou.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    vertical-align: -10px;
+}
+
+.bottom-in .song_play {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("image/pause.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    vertical-align: -5px;
+}
+.bottom-in .song_play2{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("image/bofang2.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    vertical-align: -5px;
+
+}
+
+.bottom-in .song_next {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("image/xiayishou.png") no-repeat;
+    background-size: 50px 50px; /* 通过像素设置 */
+    background-size: 50% 50%; /* 通过百分比设置 */
+    background-size: cover; /* 覆盖:图片成比例填满盒子。可用于适配 */
+    background-size: contain;
+    vertical-align: -10px;
+}
+
+.mask_bg {
+background:url("https://y.gtimg.cn/music/photo_new/T002R300x300M000002KQHsQ4CYI5b.jpg?max_age=2592000");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+-webkit-filter: blur(65px);
+filter: blur(65px);
+opacity: .6;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+z-index:-9;
+}
+
+.mask {
+    position: absolute;
+    z-index:-100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(0,0,0,.35);
+}

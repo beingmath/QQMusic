@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<link rel="stylesheet" href="index.css">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="progress.js"></script>
+<script src="Player.js"></script>
+
+<title class="title">想和你去吹吹风........正在播放</title>
+<body>
+<div class="header">QQ音乐
+    <ul class="left">
+        <li>登录</li>
+        <li>注册</li>
+    </ul>
+</div>
+<div class="content">
+    <div class="content-in">
+        <div class="content-right">
+            <img  class="pic" src="https://y.gtimg.cn/music/photo_new/T002R300x300M000002KQHsQ4CYI5b.jpg?max_age=2592000">
+            <div class="song">
+                <div class="song-music">歌曲名:想和你去吹吹风</div>
+                <div class="singer">歌手:张学友</div>
+                <div class="album">专辑：醒着做梦</div>
+            </div>
+            <div class="lyric">
+                <ul>
+                    <li>让我们像从前一样安安静静</li>
+                    <li>什么都不必说你总是能懂</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="content-left">
+            <div class="content-top">
+                <span><i></i>下载</span>
+                <span><i></i>删除</span>
+                <span><i></i>播放</span>
+                <span><i></i>暂停</span>
+                <span><i></i>清空列表</span>
+            </div>
+            <div class="content-bottom">
+                <ul id="ullist">
+                    <li class="list_title">
+                        <div class="box"><i></i></div>
+                        <div class="number">全选</div>
+                        <div class="name">歌手</div>
+                        <div class="music">歌曲名</div>
+                        <div class="time">时长</div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottom-in">
+        <a href="javascript:;" class="song_pre"></a>
+        <a href="javascript:;" class="song_play"></a>
+        <a href="javascript:;" class="song_next"></a>
+        <div class="song-progress">
+            <div class="top-info">
+                <div class="song-name">张学友/想和你去吹吹风</div>
+                <div class="song-time">00:00/03:24</div>
+            </div>
+            <div class="song-bar">
+                <div class="song-bac">
+                    <div class="song-top"></div>
+                    <div class="song-dot"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sound">
+            <div class="sound-pic"></div>
+            <div class="sound-bac">
+                <div class="sound-top"></div>
+                <div class="sound-dot"></div>
+            </div>
+        </div>
+    </div>
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    <audio src=""></audio>
+</body>
+</html>
